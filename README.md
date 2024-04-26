@@ -35,7 +35,7 @@
 
 Enjoy the classic arcade experience of *Brick Wrecker*! 🎮🧱
 
-[Download APK here](APK/BrickWrecker.apk)
+[Download APK here](APK)
 
 ## Screenshots
 
