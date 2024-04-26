@@ -1,0 +1,44 @@
+<!-- modal_pause.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@color/themecolor"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/modalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Paused"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/gagalin"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+
+
+    <ImageButton
+        android:id="@+id/resumeButton"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/resume"
+    android:contentDescription="Resume Button"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/exitButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:src="@drawable/quit"
+    android:contentDescription="Exit Button"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

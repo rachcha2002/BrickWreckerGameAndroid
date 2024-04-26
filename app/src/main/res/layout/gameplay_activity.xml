@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".GameplayActivity">
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:text="Score: 0"
+        android:textColor="@color/texttheme"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/pauseButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/pause"
+        android:background="@null"
+        android:contentDescription="Pause Button"
+        android:scaleType="fitCenter"/>
+
+    <RelativeLayout
+        android:background="@android:color/black"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/paddle"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="#E8E8E8"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/ball"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_background"
+            android:layout_above="@id/paddle"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:id="@+id/newgame"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/start_button"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="Play Button"
+            android:scaleType="fitCenter"/> <!-- Replace start_button_image with the actual image resource for the Start button -->
+
+        <LinearLayout
+            android:id="@+id/brickContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ball"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
