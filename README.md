@@ -38,21 +38,24 @@ Enjoy the classic arcade experience of *Brick Wrecker*! 🎮🧱
 ## Screenshots
 
 ### App Gallery
-![App Gallery](Screenshots/App Gallery.png)
+![App Gallery](Screenshots/AppGallery.png)
 
 ### Main Screen
-![Main Screen](Screenshots/Main Screen.png)
+![Main Screen](Screenshots/MainScreen.png)
 
 ### Game Play Screen
-![Game Play Screen](Screenshots/Game Play Screen.png)
+![Game Play Screen](Screenshots/GamePlayScreen.png)
 
 ### Game Playing
-![Game Playing](Screenshots/Game Playing.png)
+![Game Playing](Screenshots/GamePlaying.png)
 
 ### When Paused
-![When Paused](Screenshots/When Paused.png)
+![When Paused](Screenshots/WhenPaused.png)
+
+### Game Over 
+![Game Over](Screenshots/GameOver.png)
 
 ### Game Over with Best Score
-![Game Over with Best Score](Screenshots/Game Over with Best Score.png)
+![Game Over with Best Score](Screenshots/GameOverwithBestScore.png)
 
 
